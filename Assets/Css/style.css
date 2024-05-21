@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(63, 59, 131);
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+}
+
+.header-icons {
+    position:fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-button {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+    
+}
+
+.home-button:hover {
+    background-color: #ddd;
+}
+
+.notification-icon {
+    position: relative;
+}
+
+.notification-icon img {
+    width: 34px;
+    height: 34px;
+}
+
+.notification-count {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.notification {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: rgb(54, 50, 110);
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-icons {
+    align-items:flex-end;
+    font-size:small;
+
+    
+}
+ 
+
+
+
